@@ -1,0 +1,500 @@
+@import url(./global.css);
+@import url(./grid.css);
+@import url(./navbar.css);
+
+header {
+  background-color: var(--color-green);
+  padding-bottom: 200px;
+  position: relative;
+}
+
+header .container {
+  display: flex;
+  justify-content: end;
+}
+
+.hero {
+  margin-top: 600px;
+}
+
+.hero-top {
+  background-color: var(--color-dark2);
+  border-radius: 10px;
+
+  margin-bottom: 300px;
+  padding: 264px 60px 66px;
+}
+
+.hero .hero-top .hero-top-text {
+  font-family: Futura PT;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: left;
+
+  color: var(--color-white);
+}
+
+.hero .hero-top img {
+  margin: 32px 0 30px;
+}
+
+.hero .hero-bottom .hero-bottom-text {
+  font-family: Futura PT;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 39px;
+  text-align: left;
+
+  color: var(--color-white);
+  margin-bottom: 100px;
+}
+
+.hero .hero-bottom img {
+  margin-bottom: 20px;
+}
+
+.absolutes .bg-text {
+  position: absolute;
+  left: 0;
+  top: 244px;
+}
+
+.absolutes .bg-chair {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.absolutes .bg-lamp {
+  position: absolute;
+  right: 0;
+  top: 169px;
+}
+
+/* ============================================      */
+
+.advertisement {
+  padding: 200px 0;
+}
+
+.advertisement .row {
+  gap: 270px;
+}
+
+.advertisement .card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.advertisement .card .card-title {
+  font-family: Futura PT;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+
+  color: var(--color-green);
+}
+
+.advertisement .card .card-description {
+  font-family: Futura PT;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 39px;
+  text-align: left;
+
+  color: var(--color-gray);
+}
+
+.advertisement .buttons {
+  margin-top: 130px;
+  display: flex;
+}
+
+.advertisement .buttons button {
+  padding: 20px 40px;
+  background-color: var(--color-green);
+  border: none;
+}
+
+.advertisement .buttons .prev {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-left: 15px;
+}
+.advertisement .buttons .next {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-right: 15px;
+}
+
+.foto_video {
+  position: relative;
+  background: var(--color-dark);
+  padding: 301px 975px 363px;
+}
+
+.pointer .fotoo {
+  position: absolute;
+  left: -20px;
+  top: 100px;
+}
+
+.pointer .gallery {
+  position: absolute;
+  top: 848px;
+  left: 0px;
+}
+
+.pointer .armchair {
+  position: absolute;
+  right: 0;
+  top: 1146px;
+}
+
+.text {
+  width: 690px;
+}
+
+.text h1 {
+  font-family: Futura PT;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 91px;
+  text-align: left;
+  color: var(--color-white);
+}
+
+.text .Фотографии {
+  font-family: Futura PT;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+  color: var(--color-white);
+  margin-top: 200px;
+}
+
+.text p {
+  font-family: Futura PT;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 39px;
+  text-align: left;
+  color: var(--color-gray);
+  margin-top: 20px;
+}
+
+.text h2 {
+  font-family: Futura PT;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+  margin-top: 60px;
+  color: var(--color-white);
+}
+
+.Order {
+  background-image: url(./../images/bg.png);
+  background-color: var(--color-dark);
+  padding: 220px 255px;
+}
+
+.repair h1 {
+  font-family: Futura PT;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 91px;
+  text-align: left;
+  color: var(--color-white);
+}
+
+.repair p {
+  font-family: Futura PT;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: left;
+  color: var(--color-white);
+  margin-top: 100px;
+}
+
+.repair button {
+  color: 2;
+  padding: 20px 40px;
+  border-radius: 31px 31px;
+  background: linear-gradient(90deg, #fdc4a6 0%, #a9796b 100%);
+  font-family: Futura PT;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.3px;
+  text-align: left;
+  border: none;
+  color: var(--color-white);
+  margin-top: 40px;
+}
+
+.out-work {
+  background-color: var(--color-green);
+  padding: 200px 0;
+}
+
+.out-work .section-title-gradient {
+  margin-bottom: 100px;
+}
+
+.out-work .out-work-content {
+  display: flex;
+  gap: 270px;
+}
+
+.out-work .out-work-content .content-left,
+.out-work .out-work-content .content-right {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  width: 570px;
+}
+
+.out-work .out-work-content .content-left {
+  padding-top: 200px;
+}
+
+.out-work .out-work-content .content-card .card-title {
+  font-family: Futura PT;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: left;
+  color: var(--color-white);
+  margin-bottom: 10px;
+}
+
+.out-work .out-work-content .content-card .card-description {
+  font-family: Futura PT;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+
+  color: var(--color-green-light);
+  margin-bottom: 30px;
+}
+
+.out-work .out-work-content .content-card .images .image-bottom {
+  display: flex;
+  gap: 30px;
+  width: 90px;
+  height: 70px;
+  margin-top: 30px;
+}
+
+.out-work .out-work-content .content-card .images .image-bottom img {
+  width: 100%;
+}
+
+.image-top .image {
+  margin-top: 30px;
+}
+
+.fiower {
+  position: relative;
+}
+
+.fiower-img {
+  position: absolute;
+  left: 0px;
+  top: 1304px;
+}
+
+.out-work button {
+  width: 250px;
+  height: 64px;
+  padding: 20px 40px;
+  border-radius: 31px;
+  border: none;
+  background: linear-gradient(90deg, #fdc4a6 0%, #a9796b 100%);
+  font-family: Futura PT;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.3px;
+  text-align: left;
+  color: var(--color-white);
+  margin: 125px 0px 150px;
+}
+
+.out-work .button {
+  display: flex;
+  justify-content: center;
+}
+
+.Friends {
+  position: relative;
+  padding: 200px 0px 300px;
+  background: var(--color-light-beige);
+}
+
+.recommended {
+  width: 930px;
+  z-index: 1;
+}
+
+.recommended h1 {
+  font-family: Futura PT;
+  font-size: 120px;
+  font-weight: 400;
+  line-height: 120px;
+  text-align: left;
+  color: var(--color-green);
+}
+
+.recommended p {
+  font-family: Futura PT;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 91px;
+  text-align: left;
+  color: var(--color-green);
+  margin-top: 100px;
+}
+
+.look {
+  width: 450px;
+  margin-top: 100px;
+}
+
+.look p {
+  font-family: Futura PT;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 39px;
+  text-align: left;
+  color: var(--color-green);
+  width: 434px;
+}
+
+.look img {
+  margin-top: 30px;
+}
+
+.position {
+  position: relative;
+}
+
+.position .position1,
+.position .position2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background: var(--color-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 100px;
+}
+
+.position .position1 {
+  left: -40px;
+}
+
+.position .position2 {
+  left: 410px;
+}
+
+.More {
+  position: absolute;
+  left: 1095px;
+  top: 582px;
+  z-index: 1;
+}
+
+.More h3 {
+  font-family: Futura PT;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+  margin-top: 400px;
+  width: 310px;
+}
+
+.More h3 samp {
+  color: linear-gradient(90deg, #fdc4a6 0%, #a9796b 100%);
+}
+
+.img1 {
+  position: absolute;
+  top: 930px;
+  left: 0px;
+}
+
+.mockup_main {
+  position: absolute;
+  left: 839px;
+  top: 0px;
+  z-index: 2;
+}
+
+.slide {
+  padding: 148px 0;
+  background-color: var(--color-dark);
+  position: relative;
+  height: 930px;
+  overflow: hidden;
+}
+
+.slide .title-image {
+  position: absolute;
+  top: 60px;
+  left: 0;
+}
+
+.slide .slider {
+  position: relative;
+  padding-left: 500px;
+}
+
+.slide .slider .position-slider {
+  position: absolute;
+}
+
+.slider .position-slider .slider-list {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+
+.slider .position-slider .list-bottom {
+  margin-top: 160px;
+  padding-left: 360px;
+}
+
+.slider .position-slider .slider-list .slider-card{
+  width: 450px;
+}
+
+.slider .position-slider .slider-list .slider-card-title {
+  font-family: Futura PT;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+
+  color: var(--color-white);
+  margin-bottom: 30px;
+}
+
+.slider .position-slider .slider-list .slider-card-description {
+  font-family: Futura PT;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 39px;
+  text-align: left;
+
+  color: var(--color-gray);
+}
